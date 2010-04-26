@@ -27,7 +27,7 @@ For instruction on how to insert the plugin into wp template, please visit www.q
 
 = The plugin need a special setup? =
 
-No.
+1. Copy from oqey-pdfs/folder on root/ the  pdfs folder into root of your blog.
 
 
 == Screenshots ==
