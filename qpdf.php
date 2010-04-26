@@ -79,7 +79,7 @@ add_action('admin_menu', 'qu_ipdf_add_pages');
 // action function for above hook
 function qu_ipdf_add_pages() {
     // Add a new top-level menu:
-    add_menu_page('oQey-iPdf plugin', 'oQey-iPdf', 8, __FILE__, 'qu_ipdf_toplevel_page');
+    add_menu_page('oQey-Pdfs plugin', 'oQey-Pdfs', 8, __FILE__, 'qu_ipdf_toplevel_page');
     // Add a submenu to the custom top-level menu:
     add_submenu_page(__FILE__, 'Manage', 'Manage', 8, 'manageipdf.php', 'qu_ipdf_Manage_page');
 }
