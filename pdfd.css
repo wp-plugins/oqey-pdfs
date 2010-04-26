@@ -1,0 +1,26 @@
+.pdfd {
+border:none;
+text-align:left;
+}
+
+.pdfd  tr,td{
+border:none;
+}
+
+.pdfd table{
+border:none;
+}
+
+#pdfd table{
+border:none;
+}
+
+#pdfd tr{
+border:none;
+}
+
+#pdfd td{
+border:none;
+}
+
+.output{}
