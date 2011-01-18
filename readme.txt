@@ -13,7 +13,7 @@ Stable tag: 0.1
 
 oQey Pdfs plugin is a Wordpress Plugin that allows to add and manage protected pdf files.
 
-For instruction on how to insert the plugin into wp template, please visit www.qusites.com
+For instruction on how to insert the plugin into wp template, please visit www.oqeysites.com
 
 
 == Installation ==
@@ -21,7 +21,7 @@ For instruction on how to insert the plugin into wp template, please visit www.q
 1. Unzip the plugin archive and put oqey-pdfs folder into your plugins directory (wp-content/plugins/)
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place `[iPdf: pdfdocs]` in your page to show the protected pdf files.
-
+4. Copy from oqey-pdfs/folder into root/ the pdfs folder, into root of your blog.
 
 == Frequently Asked Questions ==
 
