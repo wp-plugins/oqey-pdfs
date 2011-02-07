@@ -1,6 +1,6 @@
 <?php
 // oQey-Pdfs
-// Copyright (c) 2010 qusites.com
+// Copyright (c) 2011 oqeysites.com
 // This is an add-on for WordPress
 // http://wordpress.org/
 //
@@ -14,8 +14,8 @@
 Plugin Name: oQey-Pdfs
 Version: 0.1
 Description: oQey-Pdfs plugin.
-Author: qusites.com | Dorin D.
-Author URI: http://qusites.com/
+Author: oqeysites.com
+Author URI: http://oqeysites.com/
 */
 // Create tables to store pdfs details
 global $iPdf_db_version;
@@ -190,7 +190,6 @@ $output .= '</td></tr>';
 $dd++;
 }
 $output .='</table></div>';
-
 return $output;
 }
 ?>
