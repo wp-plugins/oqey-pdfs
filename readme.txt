@@ -1,7 +1,7 @@
 === Plugin Name ===
 Plugin Name: oQey Pdfs
 Version: 0.1
-Contributors: dariimd
+Contributors: oqeysites
 Donate link: http://www.qusites.com/oqey-pdfs
 Tags: pdf, protected, files, custom online contracts, custom pdfs
 Requires at least: 2.9.0
