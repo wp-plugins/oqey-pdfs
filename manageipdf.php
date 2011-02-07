@@ -3,7 +3,6 @@ define("IPDF_PLUGIN_DIR", dirname(__FILE__));
 $message = "";
 include(ABSPATH."/wp-config.php");
 
-
 if(isset($_REQUEST['pdf_verify'])){
         $file_type = $_FILES['pdffile']['name'];
         $file_type_length = strlen($file_type) - 3;
@@ -40,12 +39,11 @@ if($file_type=="pdf"){
 	}else{ 
 	    $message =  '<div style="color:#FF6600;">all files must be in pdf format</div>';
 	}
-
 }
 ?>
 <div class="wrap">
-        	<h2>Manage pdf`s</h2>
-          </div>
+        <h2>Manage pdf`s</h2>
+</div>
 <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data" name="form1" id="form1">
 <table width="500" border="0" align="left" cellpadding="0" cellspacing="0">
 <tr>
